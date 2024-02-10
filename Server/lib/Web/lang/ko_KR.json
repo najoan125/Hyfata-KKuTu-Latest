@@ -1,8 +1,10 @@
 {
 	"GLOBAL": {
-		"GPL": "<div style='color: #666;'>글자로 놀자! 끄투 온라인 Copyright (C) {년도} {배포자}({이메일 등})<br>이 프로그램은 제품에 대한 어떠한 형태의 보증도 제공되지 않습니다.<br>이 프로그램은 자유 소프트웨어이며 배포 규정을 만족시키는 조건 아래 자유롭게 재배포할 수 있습니다.<br>이에 대한 자세한 사항은 본 프로그램의 구현을 담은 다음 레포지토리에서 확인하십시오: <a target='_blank' href='{이 서버의 소스 코드 위치}'>{이 서버의 소스 코드 위치}</a></div>",
+		"GPL": "<div style='color: #666;'>글자로 놀자! 하이파타 끄투 온라인 Copyright (C) 2022 나죠안(najoan704704@gmail.com)<br>이 프로그램은 제품에 대한 어떠한 형태의 보증도 제공되지 않습니다.<br>이 프로그램은 자유 소프트웨어이며 배포 규정을 만족시키는 조건 아래 자유롭게 재배포할 수 있습니다.<br>이에 대한 자세한 사항은 본 프로그램의 구현을 담은 다음 레포지토리에서 확인하십시오: <a target='_blank' href='https://github.com/najoan125/Hyfata-KKuTu'>Github</a></div>",
 
-		"CREATOR":	"개발자 블로그",
+		"optUnknown": "언노운워드",
+		"explUnknown": "사전에 없는 단어만 입력할 수 있습니다.",
+		"CREATOR":	"개발자 유튜브",
 		"HOME":		"FA{home}",
 		"GAMES":	"게임",
 		"GAMES_KKUTU":	"끄투",
@@ -109,7 +111,6 @@
 		"title": "로그인",
 		"loginWith": "로그인 방법을 선택하세요.",
 		"withDaldalso": "달달소 아이디로 로그인",
-		"withNaver": "네이버 아이디로 로그인",
 		"withFacebook": "페이스북 아이디로 로그인",
 		"withGoogle": "구글 아이디로 로그인",
 		"withTwitter": "트위터 아이디로 로그인",
@@ -120,7 +121,9 @@
 		"withLine": "라인 아이디로 로그인",
 		"withInstagram": "인스타그램 아이디로 로그인",
 		"withSpotify": "Spotify 아이디로 로그인",
-		"login_kkutu": "글자로 놀자! 끄투 온라인을 이용하시려면 로그인을 해 주세요."
+		"withNaver": "관리자 전용",
+		"login_kkutu": "글자로 놀자! 끄투 온라인을 이용하시려면 로그인을 해 주세요.",
+		"loginLegal": "로그인이 이루어지면 hyfata.kro.kr이 공지하는 <a href='https://ww1.apcl.kro.kr/file/%ED%95%98%EC%9D%B4%ED%8C%8C%ED%83%80%20%EB%81%84%ED%88%AC/%ED%95%98%EC%9D%B4%ED%8C%8C%ED%83%80%20%EB%81%84%ED%88%AC%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EB%B0%A9%EC%B9%A8.html' target='_blank'>개인정보 취급 방침</a>에 동의하게 됩니다.<br><br><br><br><a href='/'>뒤로가기</a>"
 	},
 	"loginfail": {
 		"title": "로그인 실패",
@@ -128,8 +131,8 @@
 		"login": "로그인"
 	},
 	"kkutu": {
-		"title": "글자로 놀자! 끄투 온라인",
-		"version": "2.5.1",
+		"title": "하이파타 끄투 온라인",
+		"version": "0.1.0",
 		
 		"meta_desc": "온라인 끝말잇기, 앞말잇기, 자음퀴즈, 십자말풀이, 타자 대결까지! 끄투에서 어휘력의 제왕이 되어 보세요.",
 		"meta_keys": "끄투,kkutu,끝말잇기,온라인,웹,쿵쿵따,영어끝말잇기,영어쿵쿵따,시리토리,끝말잇기사이트,자음퀴즈,초성퀴즈,자퀴,십자말풀이,가로세로,타자,타자연습,앞말잇기",
@@ -138,9 +141,9 @@
 		"serverList": "서버 목록",
 		"serverRefresh": "서버 목록을 다시 불러옵니다.",
 		"serverWait": "잠시 기다려 주세요.",
-		"server_0": "감자",
-		"server_1": "냉이",
-		"server_2": "다래",
+		"server_0": "엣코드 바보",
+		"server_1": "나죠안 천재",
+		"server_2": "김지렁 바보",
 		"server_3": "레몬",
 		"server_4": "망고",
 		"server_5": "보리",
@@ -162,8 +165,8 @@
 		
 		"websocketUnsupport": "본 게임은 Internet Explorer(10), 크롬(16), 파이어폭스(11), 오페라(12.1), 사파리(6) 이상의 버전에서 지원합니다!<br>브라우저를 업데이트해 주세요.",
 		"dictionarySupport": "사전 정보 제공:<a href='http://wordnet.princeton.edu' target='_blank'>WordNet</a><br><label style='color: #777777;'>WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.</label>",
-		"sandbox": "샌드박스 :: SDBX",
-		"etcSupport": "도움:<a href='http://cafe.naver.com/sdbx' target='_blank'>샌드박스 :: SDBX</a>",
+		"sandbox": "만두 유튜브",
+		"etcSupport": "도움:<a href='https://www.youtube.com/channel/UCRLswCKkQG9rJBT9iuLlHTg' target='_blank'>만두</a>",
 		"welcome": "환영합니다.",
 		"welcomeTestServer": "테스트 서버에 접속했습니다. 본 서버는 특별한 공지 없이 폭발하거나 닫힐 수 있습니다.",
 		"loadRemain": "불러오는 중... 앞으로 ",
@@ -172,7 +175,7 @@
 		"error_full": "서버 제한 인원을 초과했습니다... 잠시 후 접속해 주세요!!!",
 		"error_400": "잘못된 접근입니다.",
 		"error_401": "손님 계정은 게임 관전만 가능합니다.\n우측 상단의 로그인 단추를 눌러 로그인해 보세요!",
-		"error_402": "손님 계정은 감자 서버에만 접속이 가능합니다.\n우측 상단의 로그인 단추를 눌러 로그인해 보세요!",
+		"error_402": "손님 계정은 엣코드 바보 서버에만 접속이 가능합니다.\n우측 상단의 로그인 단추를 눌러 로그인해 보세요!",
 		"error_403": "비밀번호가 틀렸습니다.",
 		"error_404": "입장 가능한 방을 찾을 수 없습니다. 새 방을 생성합니까?",
 		"error_405": "해당 사용자를 찾을 수 없습니다.",

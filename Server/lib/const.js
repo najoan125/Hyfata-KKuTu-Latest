@@ -40,7 +40,8 @@ exports.OPTIONS = {
 	'prv': { name: "Proverb" },
 	'str': { name: "Strict" },
 	'k32': { name: "Sami" },
-	'no2': { name: "No2" }
+	'no2': { name: "No2" },
+	'unk': { name: "Unknown" }
 };
 exports.MOREMI_PART = [ 'back', 'eye', 'mouth', 'shoes', 'clothes', 'head', 'lhand', 'rhand', 'front' ];
 exports.CATEGORIES = [ "all", "spec", "skin", "badge", "head", "eye", "mouth", "clothes", "hs", "back" ];
@@ -96,7 +97,7 @@ exports.RULE = {
 	},
 	'KSH': { lang: "ko",
 		rule: "Classic",
-		opts: [ "man", "ext", "mis", "loa", "str" ],
+		opts: [ "man", "ext", "mis", "loa", "str", "unk" ],
 		time: 1,
 		ai: true,
 		big: false,
