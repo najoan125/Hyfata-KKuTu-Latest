@@ -36,9 +36,11 @@
 1. `curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -` 입력 후, `sudo apt install nodejs`를 입력해 [node.js](https://nodejs.org/)와 [npm](https://www.npmjs.com/)을 설치(버전 8 이상)합니다.
 1. `npm install -g grunt grunt-cli`를 입력해 [grunt](https://gruntjs.com/)를 설치합니다.
 1. `sudo apt install postgresql postgresql-contrib`을 입력해 [PostgreSQL](https://www.postgresql.org/)과 *psql*을 설치합니다.
-1. SQL 파일(`./db.sql`)을 데이터베이스에 입력시킵니다.
+1. PostgreSQL의 암호를 설정하고, SQL 파일(`./db.sql`)을 데이터베이스에 입력시킵니다.
    	1. `sudo -u postgres psql`을 입력해 *psql* 쉘에 접속합니다.
-	1. `CREATE DATABASE main;` 명령어를 실행해 *main* 데이터베이스를 생성합니다 (데이터베이스 생성 후, psql 프롬프트에서 \q를 입력하여 종료할 수 있습니다.)
+	1. `ALTER USER postgres WITH PASSWORD '새로운암호';`를 입력하여 *postgres* 사용자의 암호를 변경합니다.
+	1. `CREATE DATABASE main;` 명령어를 실행해 *main* 데이터베이스를 생성합니다.
+	1. \q를 입력하여 *psql* 쉘을 종료합니다.
 	1. 명령어를 다음 예와 같이 입력합니다: `sudo -u postgres psql --quiet main < ./db.sql`
 1. 섈 스크립트 파일(`./server-setup.bat`)을 실행시킵니다. (Windows 전용 파일이지만 Linux에서도 작동합니다.)
 1. 경로 `./Server`에서 다음 명령어들을 차례대로 실행합니다:
