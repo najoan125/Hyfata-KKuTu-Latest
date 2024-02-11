@@ -29,7 +29,23 @@
 1. 배치 파일(`./Server/run.bat`)을 실행시킵니다.
 	* 되도록 이 배치 파일을 직접 종료하지 말고 이를 실행시켜 나타나는 창을 종료하세요.
 
-#### Linux 환경
+#### Ubuntu 환경
+1. `sudo apt update` 입력하여 패키지 리스트를 업데이트 합니다.
+1. `sudo apt install git`을 입력해 git 설치합니다.
+1. `git clone https://github.com/najoan125/Hyfata-KKuTu-Latest.git`를 입력해 이 레포지토리를 내려받습니다.
+1. `curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -` 입력 후, `sudo apt install nodejs`를 입력해 [node.js](https://nodejs.org/)와 [npm](https://www.npmjs.com/)을 설치(버전 8 이상)합니다.
+1. `npm install -g grunt grunt-cli`를 입력해 [grunt](https://gruntjs.com/)를 설치합니다.
+1. `sudo apt install postgresql postgresql-contrib`을 입력해 [PostgreSQL](https://www.postgresql.org/)과 *psql*을 설치합니다.
+1. SQL 파일(`./db.sql`)을 데이터베이스에 입력시킵니다.
+   	1. `sudo -u postgres psql`을 입력해 *psql* 쉘에 접속합니다.
+	1. `CREATE DATABASE main;` 명령어를 실행해 *main* 데이터베이스를 생성합니다 (데이터베이스 생성 후, psql 프롬프트에서 \q를 입력하여 종료할 수 있습니다.)
+	1. 명령어를 다음 예와 같이 입력합니다: `sudo -u postgres psql --quiet main < ./db.sql`
+1. 섈 스크립트 파일(`./server-setup.bat`)을 실행시킵니다. (Windows 전용 파일이지만 Linux에서도 작동합니다.)
+1. 경로 `./Server`에서 다음 명령어들을 차례대로 실행합니다:
+	1. (게임 서버) `node lib/Game/cluster.js 0 1`
+	1. (웹 서버) `node lib/Web/cluster.js 1`
+
+#### 기타 Linux 환경
 1. 이 레포지토리를 내려받습니다.
 1. 패키지 매니저를 이용하여 [node.js](https://nodejs.org/)와 [npm](https://www.npmjs.com/)을 설치(버전 8 이상)합니다.
 1. `npm install -g grunt grunt-cli`를 입력해 [grunt](https://gruntjs.com/)를 설치합니다.
