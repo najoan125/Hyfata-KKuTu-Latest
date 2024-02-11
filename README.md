@@ -68,6 +68,9 @@
 - 서버가 성공적으로 열린 후 웹 브라우저에서 `127.0.0.1`(다른 사람들은 해당 컴퓨터의 외부 IP 주소)로 접속하여 끄투를 즐길 수 있습니다.
 - 랭킹 및 세션 기능 일부는 [Redis](https://redis.io/) 서버가 실행되어야만 작동합니다. 일단 이를 설치하지 않아도 서버가 작동할 수 있도록 조치했습니다.
 - [Cloudflare](https://www.cloudflare.com/)를 이용하는 경우, DNS 탭의 status를 `DNS only`로 두세요. `DNS and HTTP proxy (CDN)`으로 둘 경우, 방 만들기와 방 입장이 불가합니다.
+- 웹 페이지 title 앞에 붙는 `[undefined]` 변경은 아래와 같이 하시면 됩니다.
+  	- **Windows** : `./settings.json`에서 `server-name`을 변경
+	- **Linux** : `export KKT_SV_NAME="undefined를 바꿀 이름"`을 쉘에 입력
 
 ### 라이선스
 - 모든 소스 코드에 대해: [GNU 일반 공중 사용 라이선스](https://github.com/JJoriping/KKuTu/blob/master/LICENSE)
