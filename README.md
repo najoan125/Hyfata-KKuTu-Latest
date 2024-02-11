@@ -71,6 +71,7 @@
 - 웹 페이지 title 앞에 붙는 `[undefined]` 변경은 아래와 같이 하시면 됩니다.
   	- **Windows** : `./settings.json`에서 `server-name`을 변경
 	- **Linux** : `export KKT_SV_NAME="undefined를 바꿀 이름"`을 쉘에 입력
+ - 포트포워딩은 [클러스터링 문서](https://github.com/JJoriping/KKuTu/wiki/%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%A7%81)에 나와있는 포트와 `8506`포트가 추가로 되어있어야 합니다.
 
 ### 라이선스
 - 모든 소스 코드에 대해: [GNU 일반 공중 사용 라이선스](https://github.com/JJoriping/KKuTu/blob/master/LICENSE)
