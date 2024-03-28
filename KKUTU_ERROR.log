@@ -1,2 +1,1173 @@
 This is an error log file of the game server.
 You may use like `tail -f KKUTU_ERROR.log` to watch this.
+:8506 [3/28/2024, 7:00:05 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:00:15 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:00:50 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:01:00 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:01:10 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:01:20 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:01:31 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:01:41 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:01:51 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:02:01 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:02:12 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:02:22 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:02:32 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:02:43 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:02:53 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:03:03 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:03:13 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:03:24 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:03:34 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:03:44 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:03:54 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:04:05 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:04:15 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:04:25 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:04:36 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:04:46 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:04:56 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:05:06 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:05:17 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:05:27 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:05:37 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:05:48 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:05:58 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:06:08 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:06:18 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:06:29 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z��-?��-�Ӱ�-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:59:37 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:59:47 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 7:59:58 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:00:08 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:00:18 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:00:28 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:00:39 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:00:49 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???옜-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???옜-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:00:59 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:01:10 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:01:20 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:01:30 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:01:40 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:01:51 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:02:01 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:02:11 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:02:21 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:02:32 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:02:42 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-z???��-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-z???��-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:02:52 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:03:03 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:03:13 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:03:23 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:03:35 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:03:45 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:03:55 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:04:06 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:04:16 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:04:26 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:04:37 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:04:47 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:04:57 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:05:07 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:05:18 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:05:28 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:05:38 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:05:48 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:05:59 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:06:09 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:06:19 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:06:30 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [3/28/2024, 8:06:40 AM] ERROR: SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/games/classic.js:291
+			return word.match(/^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/)
+			                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/: Range out of order in character class
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8)
