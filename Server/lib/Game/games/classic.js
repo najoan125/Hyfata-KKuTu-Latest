@@ -20,12 +20,12 @@ var Const = require('../../const');
 var Lizard = require('../../sub/lizard');
 var DB;
 var DIC;
-/* º¿ Á¤º¸ */
+/* ë´‡ ì •ë³´ */
 const ROBOT_START_DELAY = [ 1200, 800, 400, 200, 0 ];
 const ROBOT_TYPE_COEF = [ 1250, 750, 500, 250, 0 ];
-const ROBOT_THINK_COEF = [ 4, 2, 1, 0, 0 ]; /* »ı°¢ÇÏ´Â ½Ã°£ */
-const ROBOT_HIT_LIMIT = [ 1000 ]; /* È½¼ö Á¦ÇÑ */
-const ROBOT_LENGTH_LIMIT = [ 3, 4, 9, 99, 99 ]; /* ±æÀÌ Á¦ÇÑ */
+const ROBOT_THINK_COEF = [ 4, 2, 1, 0, 0 ]; /* ìƒê°í•˜ëŠ” ì‹œê°„ */
+const ROBOT_HIT_LIMIT = [ 1000 ]; /* íšŸìˆ˜ ì œí•œ */
+const ROBOT_LENGTH_LIMIT = [ 3, 4, 9, 99, 99 ]; /* ê¸¸ì´ ì œí•œ */
 const RIEUL_TO_NIEUN = [4449, 4450, 4457, 4460, 4462, 4467];
 const RIEUL_TO_IEUNG = [4451, 4455, 4456, 4461, 4466, 4469];
 const NIEUN_TO_IEUNG = [4455, 4461, 4466, 4469];
@@ -41,7 +41,7 @@ exports.getTitle = function(){
 	var EXAMPLE;
 	var eng, ja;
 	var gamemode = Const.GAME_TYPE[my.mode]
-	
+
 	if(!l){
 		R.go("undefinedd");
 		return R;
@@ -104,7 +104,7 @@ exports.getTitle = function(){
 		var i, list = [];
 		var len;
 		
-		/* ºÎÇÏ°¡ ³Ê¹« °É¸°´Ù¸é ÁÖ¼®À» Ç®ÀÚ.
+		/* ë¶€í•˜ê°€ ë„ˆë¬´ ê±¸ë¦°ë‹¤ë©´ ì£¼ì„ì„ í’€ì.
 		R.go(true);
 		return R;
 		*/
@@ -167,7 +167,7 @@ exports.turnStart = function(force){
 	if(my.opts.sami) my.game.wordLength = (my.game.wordLength == 3) ? 2 : 3;
 	
 	if(my.opts.randommission) my.game.mission = getMission(my.rule.lang);
-	
+
 	my.byMaster('turnStart', {
 		turn: my.game.turn,
 		char: my.game.char,
@@ -288,7 +288,7 @@ exports.submit = function(client, text){
 			client.publish('turnError', { code: code || 404, value: text }, true);
 		}
 		function check_word(word){
-			return word.match(/^[ \-\_0-9A-Za-zª¡-?¤¡-¤Ó°¡-?]*$/)
+			return word.match(/^[ \-\_0-9A-Za-zã-ãƒ¾ã„±-ã…£ê°€-í£]*$/)
 		}
 		if($doc){
 			var gamemode = Const.GAME_TYPE[my.mode]
@@ -328,7 +328,7 @@ exports.submit = function(client, text){
 		}
 	}
 	DB.kkutu[l].findOne([ '_id', text ],
-		(l == "ko") ? [ 'type', Const.KOR_GROUP ] : (l == "en") ? [ '_id', Const.ENG_ID ] : [ '_id', Const.ENG_ID ] // ÀÓ½Ã
+		(l == "ko") ? [ 'type', Const.KOR_GROUP ] : (l == "en") ? [ '_id', Const.ENG_ID ] : [ '_id', Const.ENG_ID ] // ì„ì‹œ
 	).on(onDB);
 };
 exports.getScore = function(text, delay, ignoreMission){
@@ -385,7 +385,7 @@ exports.readyRobot = function(robot){
 		if (Math.floor(Math.random()*25) != 0){
 			text = isRev ? `T.T ...${my.game.char}` : `${my.game.char}... T.T`;
 		} else {
-			text = isRev ? `T¥øT ...${my.game.char}` : `${my.game.char}... T¥øT`;
+			text = isRev ? `TÏ‰T ...${my.game.char}` : `${my.game.char}... TÏ‰T`;
 		}
 		after();
 	}
@@ -438,9 +438,9 @@ function getMission(l){
 }
 function getAuto(char, subc, type){
 	/* type
-		0 ¹«ÀÛÀ§ ´Ü¾î ÇÏ³ª
-		1 Á¸Àç ¿©ºÎ
-		2 ´Ü¾î ¸ñ·Ï
+		0 ë¬´ì‘ìœ„ ë‹¨ì–´ í•˜ë‚˜
+		1 ì¡´ì¬ ì—¬ë¶€
+		2 ë‹¨ì–´ ëª©ë¡
 	*/
 	var my = this;
 	var R = new Lizard.Tail();
@@ -474,7 +474,7 @@ function getAuto(char, subc, type){
 	if(!char){
 		console.log(`Undefined char detected! key=${key} type=${type} adc=${adc}`);
 	}
-	MAN.findOne([ '_id', char || "¡Ú" ]).on(function($mn){
+	MAN.findOne([ '_id', char || "â˜…" ]).on(function($mn){
 		if($mn && bool){
 			if($mn[key] === null) produce();
 			else R.go($mn[key]);
@@ -495,7 +495,7 @@ function getAuto(char, subc, type){
 		}else if(my.rule.lang == "en"){
 			aqs.push([ '_id', Const.ENG_ID ]);
 		}else{
-			aqs.push([ '_id', Const.ENG_ID ]); // ÀÓ½Ã
+			aqs.push([ '_id', Const.ENG_ID ]); // ì„ì‹œ
 		}
 		switch(type){
 			case 0:
@@ -578,12 +578,12 @@ function getSubChar(char){
 			ca = [ Math.floor(k/28/21), Math.floor(k/28)%21, k%28 ];
 			cb = [ ca[0] + 0x1100, ca[1] + 0x1161, ca[2] + 0x11A7 ];
 			cc = false;
-			if(cb[0] == 4357){ // ¤©¿¡¼­ ¤¤, ¤·
+			if(cb[0] == 4357){ // ã„¹ì—ì„œ ã„´, ã…‡
 				cc = true;
 				if(RIEUL_TO_NIEUN.includes(cb[1])) cb[0] = 4354;
 				else if(RIEUL_TO_IEUNG.includes(cb[1])) cb[0] = 4363;
 				else cc = false;
-			}else if(cb[0] == 4354){ // ¤¤¿¡¼­ ¤·
+			}else if(cb[0] == 4354){ // ã„´ì—ì„œ ã…‡
 				if(NIEUN_TO_IEUNG.indexOf(cb[1]) != -1){
 					cb[0] = 4363;
 					cc = true;

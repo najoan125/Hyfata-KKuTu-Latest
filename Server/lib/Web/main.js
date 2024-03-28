@@ -145,10 +145,10 @@ DB.ready = function(){
 			}
 		}
 	});
-	Server.listen(80);
+	Server.listen(90);
 	if(Const.IS_SECURED) {
 		const options = Secure();
-		https.createServer(options, Server).listen(443);
+		https.createServer(options, Server).listen(442);
 	}
 };
 Const.MAIN_PORTS.forEach(function(v, i){
