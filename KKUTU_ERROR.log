@@ -1170,4 +1170,40 @@ SyntaxError: Invalid regular expression: /^[ \-\_0-9A-Za-zぁ-?ㄱ-ㅣ가-?]*$/:
     at Module.require (node:internal/modules/cjs/loader:1235:19)
     at require (node:internal/modules/helpers:176:18)
     at exports.init (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/kkutu.js:61:13)
-    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8)
+    at MainDB.ready (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/Game/slave.js:103:8):8506 [5/17/2024, 9:05:36 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23):8506 [5/17/2024, 9:05:36 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:632:28)
+    at Connection.emit (node:events:518:28)
+    at Socket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21):8506 [8/12/2024, 10:34:04 AM] ERROR: error: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:191:23):8506 [8/12/2024, 10:34:04 AM] ERROR: Error: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:633:28)
+    at Connection.emit (node:events:519:28)
+    at Socket.<anonymous> (/home/kkutu/Hyfata-KKuTu-Latest/Server/lib/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
