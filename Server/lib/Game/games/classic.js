@@ -360,7 +360,7 @@ exports.readyRobot = function(robot){
 			list.sort(function(a, b){ return b.hit - a.hit; });
 			if(ROBOT_HIT_LIMIT[level] > list[0].hit) denied();
 			else{
-				if(level >= 3 && !robot._done.length){
+				if(level == 3 && !robot._done.length){
 					if(Math.random() < 0.5) list.sort(function(a, b){ return b._id.length - a._id.length; });
 					if(list[0]._id.length < 8 && my.game.turnTime >= 2300){
 						for(i in list){
@@ -390,6 +390,14 @@ exports.readyRobot = function(robot){
 		after();
 	}
 	function pickList(list){
+		if (list && list.length > 0) {
+			list = list.filter(function(item){
+				return !my.game.chain.includes(item._id) && item._id.length <= ROBOT_LENGTH_LIMIT[level];
+			});
+			list.sort(function(a, b){
+                return b._id.length - a._id.length;
+            });
+		}
 		if(list) do{
 			if(!(w = list.shift())) break;
 		}while(w._id.length > ROBOT_LENGTH_LIMIT[level] || robot._done.includes(w._id));
