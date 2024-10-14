@@ -2279,7 +2279,7 @@ function onGoods(e){
 	}
 }
 function vibrate(level){
-	if (!$data.opts.av) return;
+	if ($data.opts.av !== undefined && !$data.opts.av) return;
 	if(level < 1) return;
 	
 	$("#Middle").css('padding-top', level);
