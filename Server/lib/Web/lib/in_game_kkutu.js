@@ -676,8 +676,8 @@ $(document).ready(function(){
 	});
 	$stage.dialog.settingOK.on('click', function(e){
 		applyOptions({
-			mb: $("#mute-bgm").is(":checked"),
-			me: $("#mute-effect").is(":checked"),
+			vb: $("#bgm-slider").val(),
+			ve: $("#effect-slider").val(),
 			di: $("#deny-invite").is(":checked"),
 			dw: $("#deny-whisper").is(":checked"),
 			df: $("#deny-friend").is(":checked"),
@@ -1937,11 +1937,11 @@ function showDialog($d, noToggle){
 function applyOptions(opt){
 	$data.opts = opt;
 	
-	$data.muteBGM = $data.opts.mb;
-	$data.muteEff = $data.opts.me;
+	$data.volumeBGM = $data.opts.vb === undefined ? 1 : $data.opts.vb;
+	$data.volumeEff = $data.opts.ve === undefined ? 1 : $data.opts.ve;
 	
-	$("#mute-bgm").attr('checked', $data.muteBGM);
-	$("#mute-effect").attr('checked', $data.muteEff);
+	$("#bgm-slider").val($data.volumeBGM);
+	$("#effect-slider").val($data.volumeEff);
 	$("#deny-invite").attr('checked', $data.opts.di);
 	$("#deny-whisper").attr('checked', $data.opts.dw);
 	$("#deny-friend").attr('checked', $data.opts.df);
@@ -1951,13 +1951,8 @@ function applyOptions(opt){
 	$("#only-unlock").attr('checked', $data.opts.ou);
 	
 	if($data.bgm){
-		if($data.muteBGM){
-			$data.bgm.volume = 0;
-			$data.bgm.stop();
-		}else{
-			$data.bgm.volume = 1;
-			$data.bgm = playBGM($data.bgm.key, true);
-		}
+		$data.bgm.volume = $data.volumeBGM;
+		$data.bgm = playBGM($data.bgm.key, true);
 	}
 }
 function checkInput(){
@@ -4484,34 +4479,34 @@ function stopBGM(){
 }
 function playSound(key, loop){
 	var src, sound;
-	var mute = (loop && $data.muteBGM) || (!loop && $data.muteEff);
-	
+	var volume = loop ? $data.volumeBGM : $data.volumeEff;
+	if (volume === undefined) volume = 1;
+
 	sound = $sound[key] || $sound.missing;
 	if(window.hasOwnProperty("AudioBuffer") && sound instanceof AudioBuffer){
+		var gain = typeof audioContext.createGain == 'function' ? audioContext.createGain() : null;
+
 		src = audioContext.createBufferSource();
 		src.startedAt = audioContext.currentTime;
 		src.loop = loop;
-		if(mute){
-			src.buffer = audioContext.createBuffer(2, sound.length, audioContext.sampleRate);
-		}else{
-			src.buffer = sound;
+		src.buffer = sound;
+		if (gain) {
+			gain.gain.value = (volume*volume*volume)*2-1;
+			gain.connect(audioContext.destination);
+			src.connect(gain);
 		}
 		src.connect(audioContext.destination);
 	}else{
 		if(sound.readyState) sound.audio.currentTime = 0;
 		sound.audio.loop = loop || false;
-		sound.audio.volume = mute ? 0 : 1;
+		sound.audio.volume = volume;
 		src = sound;
 	}
 	if($_sound[key]) $_sound[key].stop();
 	$_sound[key] = src;
 	src.key = key;
 	src.start();
-	/*if(sound.readyState) sound.currentTime = 0;
-	sound.loop = loop || false;
-	sound.volume = ((loop && $data.muteBGM) || (!loop && $data.muteEff)) ? 0 : 1;
-	sound.play();*/
-	
+
 	return src;
 }
 function stopAllSounds(){

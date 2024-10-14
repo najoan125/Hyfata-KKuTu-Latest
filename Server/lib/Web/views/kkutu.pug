@@ -94,9 +94,11 @@ block Middle
 		div#facebook-menu.fb-like.for-lobby.for-master.for-normal.for-gaming(data-href='http://kkutu.kr', data-width='300', data-layout='button_count', data-action='like', data-show-faces='true', data-share='true')
 	+Dialog('SettingDiag', 300, 240, L('settingsText'))
 		div.dialog-bar
-			h4= L('mute')
-			+SettingOption('mute-bgm', L('bgm'))
-			+SettingOption('mute-effect', L('effect'))
+			h4= L('bgm')
+			input#bgm-slider(type="range", min="0", max="1", step="0.1", value="1" style="width:50%;")
+		div.dialog-bar
+			h4= L('effect')
+			input#effect-slider(type="range", min="0", max="1", step="0.1", value="1" style="width:50%;")
 		div.dialog-bar
 			h4= L('denyReq')
 			+SettingOption('deny-invite', L('denyInvite'))
