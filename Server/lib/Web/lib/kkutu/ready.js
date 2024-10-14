@@ -627,6 +627,7 @@ $(document).ready(function(){
 			dw: $("#deny-whisper").is(":checked"),
 			df: $("#deny-friend").is(":checked"),
 			ar: $("#auto-ready").is(":checked"),
+			av: $("#allow-vib").is(":checked"),
 			su: $("#sort-user").is(":checked"),
 			ow: $("#only-waiting").is(":checked"),
 			ou: $("#only-unlock").is(":checked")

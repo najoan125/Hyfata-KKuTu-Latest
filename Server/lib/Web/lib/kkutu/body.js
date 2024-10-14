@@ -73,6 +73,7 @@ function applyOptions(opt){
 	$("#deny-whisper").attr('checked', $data.opts.dw);
 	$("#deny-friend").attr('checked', $data.opts.df);
 	$("#auto-ready").attr('checked', $data.opts.ar);
+	$("#allow-vib").attr('checked', $data.opts.av);
 	$("#sort-user").attr('checked', $data.opts.su);
 	$("#only-waiting").attr('checked', $data.opts.ow);
 	$("#only-unlock").attr('checked', $data.opts.ou);
@@ -2278,6 +2279,7 @@ function onGoods(e){
 	}
 }
 function vibrate(level){
+	if (!$data.opts.av) return;
 	if(level < 1) return;
 	
 	$("#Middle").css('padding-top', level);
@@ -2607,7 +2609,7 @@ function stopBGM(){
 function playSound(key, loop){
 	var src, sound;
 	var volume = loop ? $data.volumeBGM : $data.volumeEff;
-	if (volume === undefined) volume = 1;
+	if (volume === undefined) volume = 0.5;
 
 	sound = $sound[key] || $sound.missing;
 	if(window.hasOwnProperty("AudioBuffer") && sound instanceof AudioBuffer){

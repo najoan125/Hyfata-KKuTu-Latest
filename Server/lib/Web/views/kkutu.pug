@@ -95,10 +95,10 @@ block Middle
 	+Dialog('SettingDiag', 300, 290, L('settingsText'))
 		div.dialog-bar
 			h4= L('bgm')
-			input#bgm-slider(type="range", min="0", max="1", step="0.1", value="1" style="width:50%;")
+			input#bgm-slider(type="range", min="0", max="1", step="0.1", value="0.5" style="width:50%;")
 		div.dialog-bar
 			h4= L('effect')
-			input#effect-slider(type="range", min="0", max="1", step="0.1", value="1" style="width:50%;")
+			input#effect-slider(type="range", min="0", max="1", step="0.1", value="0.5" style="width:50%;")
 		div.dialog-bar
 			h4= L('denyReq')
 			+SettingOption('deny-invite', L('denyInvite'))
@@ -108,6 +108,9 @@ block Middle
 		div.dialog-bar
 			h4= L('ingames')
 			+SettingOption('auto-ready', L('autoReady'))
+			div.dialog-opt
+				input(type="checkbox" name="allow-vib" style="margin-top: 5px; width: auto;" id="allow-vib" checked)
+				label(for="allow-vib") #{L('allowVib')}
 		div.dialog-bar
 			h4= L('etc')
 			+SettingOption('sort-user', L('sortUser'), "width: 200px;")
